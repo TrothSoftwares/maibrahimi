@@ -161,46 +161,24 @@
   <section>
     <div class="container">
       <div class="row">
-        <div class="col-md-6 col-sm-6 animate fadeInLeft">
-          <h3>Contact Us</h3>
-          <div class="height-20"></div>
-          <h3>Follow Us</h3>
-          <ul class="social">
-            <li class="animate bounceIn"><a href="https://www.facebook.com/maibrahimi1" target="_blank" class="facebook"><i class="icon-facebook-1"></i></a></li>
-            <li class="animate bounceIn" data-delay="100"><a href="https://twitter.com/m_a_ibrahimi" target="_blank" class="twitter"><i class="icon-twitter-1"></i></a></li>
-          </ul>
-          <div class="height-50"></div>
-        </div>
-        <div class="col-md-6 col-sm-6 animate fadeInRight">
-          <p class="success" id="success" style="display:none;"></p>
-          <p class="error" id="error" style="display:none;"></p>
+        <div class="col-md-6">
+          <div class="map-with-address-widget animate fadeInLeft">
+            <h3>Get In Touch</h3>
 
-          <form class="contact-form" name="contact_form" id="contact_form" method="post" action="#" onSubmit="return false">
-            <div class="row">
-              <div class="col-md-6">
-                <input type="text" data-delay="300" placeholder="Your full name" name="contact_name" id="contact_name" class="input">
-              </div>
-              <div class="col-md-6">
-                <input type="text" data-delay="300" placeholder="E-mail Address" name="contact_email" id="contact_email" class="input">
-              </div>
+            <div class="contact-info-widget">
+              <p><strong>Email:</strong> <a href="mailto:maibrahimi@gmail.com">maibrahimi@gmail.com</a><br>
+                <strong>Web:</strong> <a href="https://www.maibrahimi.com">maibrahimi.com</a><br>
+              </p>
             </div>
-            <div class="row">
-              <div class="col-md-6">
-                <input type="text" data-delay="300" placeholder="Phone No" name="contact_phone" id="contact_phone" class="input">
-              </div>
-            </div>
-            <textarea data-delay="500" class="required valid" placeholder="Message" name="message" id="message"></textarea>
-            <button class="btn btn-primary" name="" type="submit" data-text="Send Message" onClick="validateContact();">Send Message</button>
-          </form>
+            <ul class="social">
+              <li class="animate bounceIn"><a href="https://www.facebook.com/maibrahimi1" target="_blank" class="facebook"><i class="icon-facebook-1"></i></a></li>
+              <li class="animate bounceIn" data-delay="100"><a href="https://twitter.com/m_a_ibrahimi" target="_blank" class="twitter"><i class="icon-twitter-1"></i></a></li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
-  </section><!-- / COMPANY OVERVIEW -->
-
-
-
-
-  <div class="map" id="map"></div>
+  </section> <!--END Contactus -->
 
 
 
@@ -208,23 +186,6 @@
   <footer id="footer">
     <div class="container">
       <div class="footer-top clearfix">
-
-        <div class="row">
-          <div class="col-md-3 col-sm-3">
-            <div class="footer-logo animate fadeInLeft"><a href="index.html"><img src="images/footer-logo1.png" alt=""></a></div>
-          </div>
-
-
-          <div class="footer-left">
-            <div class="footer-address-widget clearfix">
-              <ul>
-                <li><i class="icon-telephone114"></i>+91 123456<a href="mailto:ss@maibrahimi.com">support@xxxyyyzzz.com</a></li>
-                <li><i class="icon-icons74"></i>....<span>....</span></li>
-              </ul>
-            </div>
-          </div>
-
-        </div>
       </div>
 
       <div class="footer-bottom">
@@ -251,10 +212,8 @@
     <script src="js/common.js"></script>
     <script src="js/scripts.js"></script>
 
-    <!-- Map (include map api only once)
-    ============================================= -->
-    <script src="https://maps.googleapis.com/maps/api/js?v=3key=AIzaSyASm3CwaK9qtcZEWYa-iQwHaGi3gcosAJc&sensor=false"></script>
-    <script src="js/map.js"></script>
+
+
 
   </body>
   </html>
