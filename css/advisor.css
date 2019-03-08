@@ -586,7 +586,7 @@ font-family: "Open Sans",sans-serif;}
 .parallax{ background-attachment:fixed; background-size:cover;}
 }
 .company-history li{ list-style:none;}
-.company-history li .year{ float:left; width:94px; font-size:24px;}
+.company-history li .year{ float:left; width:94px; font-size:13px;}
 .company-history li .history-content{ margin-left:94px; padding:0 0 50px 50px; border-left:1px solid #90949f; position:relative;}
 .company-history li .history-content:before{ position:absolute; left:-6px; top:0; width:11px; height:11px; border-radius:100%; content:"";}
 .company-history li .history-content h4{ margin-bottom:10px;}
